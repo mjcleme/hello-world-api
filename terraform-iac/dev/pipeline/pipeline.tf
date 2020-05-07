@@ -17,7 +17,7 @@ module "acs" {
 }
 
 provider "github" {
-  organization = "<YOUR ORG HERE>"
+  organization = "mjcleme"
   token        = module.acs.github_token
 }
 
